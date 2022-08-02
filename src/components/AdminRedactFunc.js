@@ -63,7 +63,7 @@ function AdminRedactFunc(props) {
                     <input type="text" className="admn-input" placeholder={"Название"} style={{marginTop:'20px'}}
                            onChange={event => setTea({...Tea,name:event.target.value})} value={Tea.name}/>
                     <input type="text" className="admn-input" placeholder={"Надпись над названием"}
-                           onChange={event => setTea({...Tea,subname:event.target.value})} value={Tea.name}/>
+                           onChange={event => setTea({...Tea,subname:event.target.value})} value={Tea.subname}/>
                     {/*<input type="text" className="admn-input" placeholder={"Страна производства"}
                            onChange={event => setTea({...Tea,madeCountry:event.target.value})} value={Tea.madeCountry}/>*/}
                     <input type="text" className="admn-input" placeholder={"Дополнительно"}
