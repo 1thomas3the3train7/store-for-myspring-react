@@ -1,7 +1,7 @@
 
 import React, {Component, useContext, useState} from 'react';
 import axios from "axios";
-import {$authHostx, myurl, thisUrl} from "../components/MyAxios";
+import {$authHostx, myurl, thisUrl, thisurl1} from "../components/MyAxios";
 import "../style/main.css"
 import Galleryslide from "../components/Sliders/Galleryslide";
 import Productinfo from "../components/Productinfo";

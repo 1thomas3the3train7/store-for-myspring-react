@@ -84,7 +84,7 @@ function Productinfo(props) {
             )
         } else {
             setAs("none")
-            setAdReview(<div style={{display:"flex",justifyContent:"center",marginTop:"35px",fontSize:"25px"}}>
+            setAdReview(<div style={{display:"flex",justifyContent:"center",marginTop:"-25px",fontSize:"25px",marginBottom:"20px"}}>
                 <p>Войдите в аккаунт</p>
             </div>)
         }
@@ -140,6 +140,7 @@ function Productinfo(props) {
                     <p className={"review-btn"} onClick={() => addRevieww()}>
                         Написать отзыв
                     </p>
+                    {adReview}
                     <div className={"add-review"} style={{display:as}}>
                         <label className={"add-review-label"}>Оценка</label>
                         {/*<input type="text" onChange={event => setReview({...review,grade:event.target.value})}

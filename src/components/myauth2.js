@@ -51,7 +51,11 @@ const Myauth2 = observer((props) => {
                             <Link to={"/register"} className={"form-reg-link"}>Зарегистрируйся</Link>
                         </p>
                     </div>
-
+                    <div style={{display:"flex",flexDirection:"column", alignItems:"center",marginTop:"10px"}}>
+                        <p>Готовый аккаунт</p>
+                        <p>Email: email</p>
+                        <p>Пароль: password</p>
+                    </div>
                 </div>
             </div>
         </div>
