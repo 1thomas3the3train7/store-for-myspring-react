@@ -138,6 +138,7 @@
     padding: 7px 15px 7px 15px;
     border-radius: 15px;
     cursor: pointer;
+    margin-bottom: 25px !important;
 }
 .review-btn:hover{
     background-color: #07520b;

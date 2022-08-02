@@ -14,8 +14,7 @@ function RegostrationFunc(props) {
     function sendToken(){
         axios.get(x,{},{withCredentials:true})
             .then(res => {if(res.data === "Email confirmed"){
-                dispatch({type:"set_auth",auth:true})
-                navigate("/main")
+                navigate("/login")
             } else {
                 setErr(<div style={{marginTop:"15px",textAlign:"center"}}>
                     <p>
