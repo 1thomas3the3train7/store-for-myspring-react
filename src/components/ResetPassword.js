@@ -23,7 +23,7 @@ function ResetPassword(props) {
                 .catch(err => {
                     setX(<div>Произошла ошибка</div>)
                     setCount(1)
-                })
+                });
         }
     }
     return (
