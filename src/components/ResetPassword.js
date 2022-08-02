@@ -5,7 +5,7 @@ import {myurl} from "./MyAxios";
 import {useNavigate} from "react-router-dom";
 
 function ResetPassword(props) {
-    let x = window.location.href.replace("http://localhost:3000/resetpassword?token=","")
+    let x = window.location.href.replace(myurl + "resetpassword?token=","")
     let token = x.split("&")[0]
     let email = x.split("&email=")[1]
     const [password,setPassword] = useState();

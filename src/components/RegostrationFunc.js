@@ -5,7 +5,9 @@ import {useNavigate} from "react-router-dom";
 import {useDispatch} from "react-redux";
 
 function RegostrationFunc(props) {
-    let x = window.location.href.replace("3000","8080/api/auth");
+    /*https://react-store-mu-ashen.vercel.app/registration?token=f6d41f36-5e6a-4dde-9bbb-23fc03812383&email=mercyfirsov@gmail.com*/
+    let x = window.location.href.replace("https://react-store-mu-ashen.vercel.app",
+        "https://oraoraora.herokuapp.com/api/auth");
     const [err,setErr] = useState(<div></div>);
     const dispatch = useDispatch()
     const navigate = useNavigate()
