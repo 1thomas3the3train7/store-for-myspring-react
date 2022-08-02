@@ -15,8 +15,8 @@ export const myimage = axios.create(
     }
 })
 
-export const myurl = "http://localhost:8080/";
-export const myurl1 = "https://oraoraora.herokuapp.com/"
+export const myurl1 = "http://localhost:8080/";
+export const myurl = "https://oraoraora.herokuapp.com/"
 export const myheaders = "headers:{\n" +
     "        \"Content-Type\": \"multipart/form-data\",\n" +
     "    }"
