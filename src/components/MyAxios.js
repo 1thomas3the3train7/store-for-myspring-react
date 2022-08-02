@@ -17,6 +17,7 @@ export const myimage = axios.create(
 
 export const myurl1 = "http://localhost:8080/";
 export const myurl = "https://oraoraora.herokuapp.com/"
+export const thisUrl = "https://react-store-mu-ashen.vercel.app/"
 export const myheaders = "headers:{\n" +
     "        \"Content-Type\": \"multipart/form-data\",\n" +
     "    }"

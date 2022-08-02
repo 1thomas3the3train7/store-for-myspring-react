@@ -1,7 +1,7 @@
 
 import React, {Component, useContext, useState} from 'react';
 import axios from "axios";
-import {$authHostx, myurl} from "../components/MyAxios";
+import {$authHostx, myurl, thisUrl} from "../components/MyAxios";
 import "../style/main.css"
 import Galleryslide from "../components/Sliders/Galleryslide";
 import Productinfo from "../components/Productinfo";
@@ -26,7 +26,8 @@ class Product extends Component {
         function sele(){
             if(sessionStorage.getItem("auth")==="true"){return true}else{return false}
         }
-        let urc = window.location.href.replace(myurl + "product?id=","")
+
+        let urc = window.location.href.replace(thisUrl + "product?id=","")
         let ur = urc.split("&")[0];
         let c = window.location.href.split("&c=").pop();
         this.setState({c:c})
