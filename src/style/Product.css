@@ -1,0 +1,194 @@
+.p_myflex{
+    display: flex;
+    gap:100px;
+    margin-top: 100px;
+}
+.p_info {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+.p_h1{
+    font-size: 400%;
+    text-transform: capitalize;
+}
+.p_pflex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.my-swiper-img{
+    width: 600px;
+    height: 400px;
+}
+.my-swiper-img-1{
+    width: 600px;
+    height: 140px;
+}
+.my-swiper-img-2{
+    width: 193.33px;
+    height: 140px;
+}
+.mySwiper .swiper-slide {
+    opacity: 0.4;
+}
+.myswiper1x {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.pr-b{
+    font-size: 25px;
+    padding: 10px 5px 10px 5px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+.pr-text-1{
+    color: #07520b;
+    cursor: pointer;
+}
+.pr-text-1:hover{
+    color: greenyellow;
+}
+.pr-toflex{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+.pr-text-c{
+    font-size: 19px;
+    color: gray;
+}
+.pr-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    border-radius: 8px;
+    background-color: #0ecb18;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.pr-btn:hover{
+    background-color: #07520b;
+}
+.pr-btn-text{
+    margin: 0;
+    padding: 0;
+}
+.pr-add-like{
+    background-color: #09a411;
+    color:white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.pr-add-like:hover{
+    background-color: #07520b;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.pr-toflex-2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pr-presence{
+    border-radius: 15px;
+    color: white;
+    background-color: #09a411;
+    padding:5px 10px 5px 10px;
+    font-size: 25px;
+}
+.pr-toflex-1{
+    margin-top:40px;
+    padding-top:50px;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pr-price{
+    color: gray;
+}
+.pr-about{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.baza{
+    padding: 0px;
+    margin: 0px;
+}
+.review-btn {
+    color: white;
+    margin-top: 50px !important;
+    background-color: #0ecb18;
+    font-size: 30px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 7px 15px 7px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.review-btn:hover{
+    background-color: #07520b;
+    transition: all 0.4s;
+}
+.add-review{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: rgba(128, 128, 128, 0.09);
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.add-review-input{
+    width: 100%;
+    min-height: 40px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.add-review-label{
+    width: 98%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    border-radius: 10px;
+}
+.add-review-button{
+    width: 200px;
+    background-color: rgba(0,255,0,0.29);
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.red-prod{
+    background-color: rgba(23,218,43,0.4);
+    width: fit-content;
+    padding: 10px 25px;
+    font-size: 22px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.red-prod:hover{
+    background-color: rgba(14, 117, 24, 0.55);
+}

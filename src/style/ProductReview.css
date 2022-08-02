@@ -1,0 +1,54 @@
+
+.review-wrap {
+    margin-top: 60px;
+}
+.pr-review-wrap{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.pr-review{
+    background-color: rgba(0, 255, 14, 0.04);
+    padding: 25px;
+    border-radius: 30px ;
+}
+h5{
+    margin: 0;
+}
+.pr-review-img{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.pr-review-presence{
+    background-color: #09a411;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.pr-review-h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.pr-review-p{
+    margin-top:10px !important;
+    color: black;
+    font-weight: 400;
+    max-width: 550px;
+}
+.pr-review-presence-wrap {
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+.wrap-reviewss{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}

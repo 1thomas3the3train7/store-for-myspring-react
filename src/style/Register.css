@@ -1,0 +1,141 @@
+.reg-form-toflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(15,231,0,0.24);
+    padding: 40px;
+    border-radius: 40px;
+    min-width:300px;
+    align-items: center;
+    gap:30px;
+    margin-top: 100px;
+}
+.rrr {
+    display: flex;
+    justify-content: center;
+}
+.reg-form-input{
+    background-color:white;
+    height: 30px;
+    border:none;
+    border-radius: 7px;
+    width: 250px;
+    margin-top: 10px;
+}
+.reg-form-p{
+    font-size: 20px;
+    text-align: center;
+}
+.reg-form-btn{
+    background-color: rgba(0, 255, 12, 0.33);
+    font-size: 21px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reg-form-btn:hover{
+    background-color: rgba(0, 203, 10, 0.59);
+}
+.regtn-wrap {
+    background-color: rgba(0, 255, 12, 0.33);
+    padding: 15px 35px;
+    font-size: 27px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.regtn-wrap:hover{
+    background-color: rgba(2, 169, 11, 0.58);
+}
+.form-reset{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 12, 0.33);
+    width: 150px;
+    margin:0 auto;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form-reset:hover{
+    background-color: rgba(2, 169, 11, 0.58);
+}
+.reset-form{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.reset-form-toflex{
+    background-color: rgba(0, 255, 12, 0.33);
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 22px;
+}
+.reset-input{
+    border:none;
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.reset-p{
+    text-align: center;
+}
+.reset-btn{
+    margin-top: 15px !important;
+    background-color: rgba(11, 199, 20, 0.48);
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reset-btn:hover{
+    background-color: rgba(2, 169, 11, 0.58);
+}
+.resetpassword-wrap{
+    display: flex;
+    justify-content: center;
+}
+.resetpassword{
+    background-color: rgba(0, 255, 12, 0.33);
+    padding: 40px;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+.resetpassword-p{
+    font-size: 25px;
+}
+.resetpassword-input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.resetpassword-btn{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(11, 199, 20, 0.48);
+    width: fit-content;
+
+}
+.resetpassword-btn:hover{
+    background-color: rgba(2, 169, 11, 0.58);
+}
+.regfunc-err{
+    background-color: rgba(255, 0, 0, 0.68);
+    font-size: 17px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.regfunc-suc{
+    background-color: rgba(0, 255, 13, 0.42);
+    font-size: 17px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.like-h2{
+    font-size: 35px;
+}
+.like-list{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.like-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.like-wrap-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+}

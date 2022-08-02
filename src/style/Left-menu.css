@@ -1,0 +1,101 @@
+.leftmenu-brd{
+    display: flex;
+    width: 350px;
+}
+.leftmenu-brd-p{
+    border: 1px solid rgba(128, 128, 128, 0.32);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px ;
+    gap: 6px;
+    align-items: center;
+}
+.leftmenu-brd-p-p{
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 19px;
+    font-weight: 600;
+}
+.leftmenu-slide-wrap{
+    margin-top: 25px;
+    gap:5px;
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+}
+.leftmenu-h5{
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.leftmenu-mainwrap{
+    display: flex;
+    margin-top: 25px;
+    max-width: 350px;
+    flex-direction: column;
+}
+.leftmenu-toflex{
+    display: flex;
+}
+.catalog-tea{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    max-width: 820px;
+}
+.catalog-tea-toflex{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+.containercatalog{
+    padding: 0px 5px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 50px;
+}
+.catalog-tea-button-wrap{
+    padding: 15px 25px 15px 25px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.catalog-tea-button{
+    font-weight: 600;
+    padding: 15px 45px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgb(3, 162, 0);
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+}
+.catalog-tea-button:hover{
+    background-color: #007e03;
+}
+.catalog-input-toflex{
+    display: flex;
+    flex-direction: column;
+}
+.catalog-input{
+    min-height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    padding-left: 7px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.catalog-select{
+    margin-top:10px
+}
+.catalog-pageable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
