@@ -49,6 +49,12 @@ function Regfunc(props) {
     function isValidEmail(email){
         return /\S+@\S+\.\S+/.test(email)
     }
+    function isPaddword(){
+        if(reg.password.length >= 4){sendReg()}
+        else {setX(<div className={"regfunc-err"}><p>
+            Пароль не меньше 4 символов
+        </p></div>)}
+    }
     return (
         <div className={"container rrr"}>
             <div className={"reg-form-toflex"}>
@@ -77,7 +83,7 @@ function Regfunc(props) {
                     <input type="text" className={"reg-form-input"} onChange={event => setReg({...reg,username:event.target.value})}/>
                 </div>
                 <div className={"reg-form-btnwrap"}>
-                    <p className={"reg-form-btn"} onClick={() => sendReg() }>Зарегистрироваться</p>
+                    <p className={"reg-form-btn"} onClick={() => isPaddword() }>Зарегистрироваться</p>
                 </div>
                 {x ? x : <div></div>}
             </div>

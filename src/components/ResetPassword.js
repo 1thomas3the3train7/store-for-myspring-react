@@ -26,6 +26,12 @@ function ResetPassword(props) {
                 });
         }
     }
+    function isPassword(){
+        if(password.length >= 4){sendPassword()}
+        else {
+            setX(<div>Пароль не меньше 4 символов</div>)
+        }
+    }
     return (
         <div className={"resetpassword-wrap"}>
             <div className={"resetpassword"}>

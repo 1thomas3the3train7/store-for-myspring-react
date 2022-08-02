@@ -26,7 +26,7 @@ class Product extends Component {
         function sele(){
             if(sessionStorage.getItem("auth")==="true"){return true}else{return false}
         }
-        let ur = window.location.href.replace("http://localhost:3000/product?id=","")
+        let ur = window.location.href.replace(myurl + "product?id=","")
         ur = ur.split("&")[0];
         let c = window.location.href.split("&c=").pop();
         this.setState({c:c})

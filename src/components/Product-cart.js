@@ -15,8 +15,8 @@ function ProductCart(props) {
     let loc = window.location.href
     let bol;
     let stl;
-    if(loc === "http://localhost:3000/favourites" || bol ){
-        console.log(bol)
+    let url= myurl +"favourites"
+    if(loc ===  url || bol ){
         stl =
         bol = <div>
             <p className={"product-cart-del"} onClick={() => delLikee()}>
