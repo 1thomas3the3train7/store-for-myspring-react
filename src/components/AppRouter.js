@@ -6,31 +6,18 @@ import Header from "./Header";
 import Auth from "../pages/Auth";
 import {Context} from "../index";
 import Myauth from "./Myauth";
+import PageNotFound from "../pages/PageNotFound";
 
 function AppRouter(props) {
-    function loging(x){
-        if(x == true){
-            return
-                authRoutes.map(({path,Component}) =>
-                    <Route key={path} path={path} element={<Component/>} exact/>)
-                publicRoutes.map(({path,Component}) =>
-                    <Route key={path} path={path} element={<Component/>} exact/> )
-        } else {
-            return
-                publicRoutes.map(({path,Component}) =>
-                <Route key={path} path={path} element={<Component/>} exact/> )
-
-        }
-    }
     return (
         <div>
 
                 <Routes>
-                    { authRoutes.map(({path,Component}) =>
+                    {authRoutes.map(({path,Component}) =>
                         <Route key={path} path={path} element={<Component/>} exact/>)}
                     {publicRoutes.map(({path,Component}) =>
                         <Route key={path} path={path} element={<Component/>} exact/> )}
-                    <Route path={"*"} element={<Myauth/>}/>
+                    <Route path={"*"} element={<PageNotFound/>}/>
                 </Routes>
 
         </div>

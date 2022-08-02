@@ -11,14 +11,13 @@ function Header(props) {
         <Link to={"/logout"} className={"link btn"}>Выйти</Link>}
     const token = sessionStorage.getItem("token")
     try {
-        console.log(token)
         let decoded = jwtDecode(token)
         console.log(decoded.roles)
         if(decoded.roles.includes("ROLE_ADMIN")){
-            console.log(decoded.roles)
+
             adm = <Link to={"admin"} className={"link btn"}>Админ</Link>}
     } catch (Exception){
-        console.log(Exception)
+
     }
     return (
         <div>

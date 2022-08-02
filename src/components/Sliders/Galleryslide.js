@@ -31,15 +31,6 @@ function Galleryslide(props) {
                     </SwiperSlide>
                 )}
 
-                {/*<SwiperSlide>
-                    <img src={"http://localhost:8080/api/product/getImage?filename=" + props.prod.mainLinkImage}
-                         className={"my-swiper-img"}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={"http://localhost:8080/api/product/getImage?filename=" + props.prod.mainLinkImage}
-                         className={"my-swiper-img"}/>
-                </SwiperSlide>*/}
-
             </Swiper>
             <Swiper
                 onSwiper={setThumbsSwiper}
@@ -61,18 +52,6 @@ function Galleryslide(props) {
                              className={"my-swiper-img-2"}/>
                     </SwiperSlide>
                 )}
-                {/*<SwiperSlide>
-                    <img src={"http://localhost:8080/api/product/getImage?filename=" + props.prod.mainLinkImage}
-                         className={"my-swiper-img-2"}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={"http://localhost:8080/api/product/getImage?filename=" + props.prod.mainLinkImage}
-                         className={"my-swiper-img-2"}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={"http://localhost:8080/api/product/getImage?filename=" + props.prod.mainLinkImage}
-                         className={"my-swiper-img-2"}    />
-                </SwiperSlide>*/}
             </Swiper>
         </div>
     );
