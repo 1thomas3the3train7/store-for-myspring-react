@@ -20,7 +20,6 @@ class Catalog extends Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <div>
                 {this.state.minprice ? this.state.defaultProd ? <Leftmenu minPrice={this.state.minprice} maxPrice={this.state.maxprice}

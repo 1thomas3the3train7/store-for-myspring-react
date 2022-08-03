@@ -57,7 +57,7 @@ function Admin(props){
         setOptions(initial)
     }
     function uploadCategory(){
-        axios.post(myurl + "api/product/uploadcategory",mycategory,{withCredentials:true})
+        $authHostx.post(myurl + "api/product/uploadcategory",mycategory,{withCredentials:true})
             .then(res => console.log(res.data))
     }
     function loadCategory1(e){

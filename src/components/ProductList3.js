@@ -4,7 +4,6 @@ import axios from "axios";
 import {myurl} from "./MyAxios";
 
 function ProductList3(props) {
-    axios.post(myurl + "api/product/getproductbyid",{result:"1"},{withCredentials:true})
     return (
         <div>
             <div className={"product-list-1"}>

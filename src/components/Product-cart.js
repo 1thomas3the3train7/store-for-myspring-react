@@ -60,7 +60,7 @@ function ProductCart(props) {
                                 {props.prod.subname}
                             </p>
                             <p className={"product-cart-name-2"}>
-                                {props.prod.name}
+                                <Link to={"/product?id=" + props.prod.id + "&c=" + count}>{props.prod.name}</Link>
                             </p>
                         </div>
                         {bol}

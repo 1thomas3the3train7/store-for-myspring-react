@@ -52,18 +52,15 @@ function Leftmenu(props) {
     function sendSearch(){
         setPage(1)
         setFilter({...filter,pageable:page})
-        console.log(filter)
         axios.post(myurl + "api/product/search",{...filter,pageable:1},{withCredentials:true})
             .then(res => {setXx(res.data.teaDTOS);setCount(res.data.count)})
     }
     const handleChange1 = (event, value) => {
-        console.log(value)
         wd(value)
     };
     function wd(valuex){
         setPage(valuex);
         setFilter({...filter,pageable:valuex})
-        console.log(filter)
         axios.post(myurl + "api/product/search",{
             name:filter.name,
             minPrice:filter.minPrice,
@@ -73,7 +70,6 @@ function Leftmenu(props) {
         },{withCredentials:true})
             .then(res => {setXx(res.data.teaDTOS);setCount(res.data.count)})
     }
-    console.log(page)
     return (
         <div  className={"containercatalog leftmenu-toflex"}>
             <div className={"leftmenu-mainwrap"}>
@@ -120,11 +116,6 @@ function Leftmenu(props) {
                 <div className={"catalog-tea-button-wrap"}>
                     <p className={"catalog-tea-button"} onClick={() => sendSearch()}>Применить</p>
                 </div>
-                {/*<div style={{marginTop:"30px"}}>
-                    <p style={{color:"gray"}}>Пагинация работает с задержкой. Например изначально страница 1 при клике на 3 загрузится
-                        все равно 1 при клике на 5 загрузится 3. Я без понятия почему, устанавливается setPage(x)
-                    после setFilter(...filter,pageable:page) но запрос все равно отправляется с page которая была до setPage(x)</p>
-                </div>*/}
             </div>
             <div className={"catalog-pageable"}>
                 <div className={"catalog-tea-toflex"}>

@@ -10,12 +10,9 @@ import {Provider} from "react-redux";
 
 function checkAuth(){
     let x = sessionStorage.getItem("auth")
-    console.log(sessionStorage.getItem("auth"))
     if(x === "true"){
-        console.log(x)
         return true;
     } else {
-        console.log(x)
         return false;
     }
 

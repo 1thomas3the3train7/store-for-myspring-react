@@ -15,10 +15,10 @@ export const myimage = axios.create(
     }
 })
 
-export const myurl1 = "http://localhost:8080/";
-export const myurl = "https://oraoraora.herokuapp.com/"
-export const thisUrl = "https://react-store-mu-ashen.vercel.app/"
-export const thisurl1 = "http://localhost:3000/"
+export const myurl = "http://localhost:8080/";
+export const myurl1 = "https://oraoraora.herokuapp.com/"
+export const thisUrl1 = "https://react-store-mu-ashen.vercel.app/"
+export const thisUrl = "http://localhost:3000/"
 export const myheaders = "headers:{\n" +
     "        \"Content-Type\": \"multipart/form-data\",\n" +
     "    }"

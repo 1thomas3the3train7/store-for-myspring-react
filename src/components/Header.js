@@ -12,7 +12,6 @@ function Header(props) {
     const token = sessionStorage.getItem("token")
     try {
         let decoded = jwtDecode(token)
-        console.log(decoded.roles)
         if(decoded.roles.includes("ROLE_ADMIN")){
 
             adm = <Link to={"admin"} className={"link btn"}>Админ</Link>}

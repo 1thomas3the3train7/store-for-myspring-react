@@ -31,10 +31,10 @@ function Productinfo(props) {
         if(btn = 0){
             if(props.likes === "false"){
                 setAdLike(<p className={"pr-add-like"} onClick={() => addLike()}>Добавить в избранное</p>)
-                console.log("false1")
+
             } else {
                 setAdLike(<p className={"pr-add-like"} onClick={() => addLike()}>Добавленно в избранное</p>)
-                console.log("true1")
+
             }
             btn = 1
         }
@@ -44,7 +44,7 @@ function Productinfo(props) {
     function foradmin(){
         if(props.admin){
             fradmin = <div className={"red-prod"}>
-                <Link to={"/admin/edit?prod=" + props.prod.id}>Редактировать</Link>
+                <Link to={"/admin/edit?prod=" + props.prod.id}>Редактировать (id = {props.prod.id})</Link>
             </div>
         }
     }
@@ -61,7 +61,7 @@ function Productinfo(props) {
     }
     function sendReview(){
         $authHostx.post("api/product/savereview",{...review,id:props.prod.id},{withCredentials:true})
-            .then(res => {console.log(res.data);window.location.reload()})
+            .then(res => {window.location.reload()})
     }
     function addLike(){
         if(isAuth){
