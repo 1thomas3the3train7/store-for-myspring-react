@@ -20,7 +20,7 @@ function Regfunc(props) {
                     setCount(2)
                     setX(<div className={"regfunc-suc"}>
                         <p>
-                            Проверьте вашу электронную почту
+                            Проверьте вашу электронную почту(Улетает в СПАМ)
                         </p>
                     </div>)
                 }}).catch(err => {
