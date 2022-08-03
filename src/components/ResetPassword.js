@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import "../style/Register.css"
 import axios from "axios";
-import {myurl} from "./MyAxios";
+import {myurl, thisUrl} from "./MyAxios";
 import {useNavigate} from "react-router-dom";
 
 function ResetPassword(props) {
-    let x = window.location.href.replace(myurl + "resetpassword?token=","")
+    let x = window.location.href.replace(thisUrl + "resetpassword?token=","")
     let token = x.split("&")[0]
     let email = x.split("&email=")[1]
     const [password,setPassword] = useState();
