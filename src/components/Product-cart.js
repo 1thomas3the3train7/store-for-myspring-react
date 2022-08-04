@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import "../style/product-cart.css"
 import {Link, useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {$authHostx, myurl} from "./MyAxios";
+import {$authHostx, myurl, thisUrl} from "./MyAxios";
 import axios from "axios";
 
 function ProductCart(props) {
@@ -15,7 +15,7 @@ function ProductCart(props) {
     let loc = window.location.href
     let bol;
     let stl;
-    let url= myurl +"favourites"
+    let url= thisUrl +"favourites"
     if(loc ===  url || bol ){
         stl =
         bol = <div>
